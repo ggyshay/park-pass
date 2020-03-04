@@ -1,0 +1,24 @@
+.login-container {
+  background: url("../images/ivana-cajina-WPVtT0MEM00-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.login-column {
+  background-color: white;
+  width: 50%;
+  height: 100vh;
+  padding: 32px;
+}
+
+.login-title {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #ffb72d;
+}

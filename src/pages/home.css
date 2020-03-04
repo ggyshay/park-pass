@@ -1,0 +1,63 @@
+.car-icon {
+  width: 230px;
+  height: 230px;
+}
+
+.home-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../images/ivana-cajina-WPVtT0MEM00-unsplash.jpg");
+  background-size: cover;
+}
+
+.home-banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50rem;
+  height: 35rem;
+}
+
+.home-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+  height: 20rem;
+  background: #c4c4c4;
+  border-radius: 40px;
+}
+
+.home-badge:hover {
+  background: #bbbbbb;
+  transition: all ease-in-out 0.1s;
+}
+
+.home-badge-text {
+  font-size: 30px;
+  color: white;
+}
+
+.home-banner-title {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0px;
+}
+
+.home-banner-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 50rem;
+  height: 35rem;
+  background: rgba(196, 196, 196, 0.5);
+  border-radius: 40px;
+}

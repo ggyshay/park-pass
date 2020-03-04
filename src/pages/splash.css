@@ -1,0 +1,47 @@
+.splash-container {
+  background: url("../images/ivana-cajina-WPVtT0MEM00-unsplash.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.splash-banner {
+  background: rgba(196, 196, 196, 0.6);
+  border-radius: 40px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.splash-title {
+  font-family: "Comfortaa", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  width: 250px;
+  height: 80px;
+  background: #ffb72d;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
