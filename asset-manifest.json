@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/park-pass/static/css/main.deff4103.chunk.css",
+    "main.js": "/park-pass/static/js/main.96d9e896.chunk.js",
+    "main.js.map": "/park-pass/static/js/main.96d9e896.chunk.js.map",
+    "runtime-main.js": "/park-pass/static/js/runtime-main.87dc1c7f.js",
+    "runtime-main.js.map": "/park-pass/static/js/runtime-main.87dc1c7f.js.map",
+    "static/js/2.c92dc190.chunk.js": "/park-pass/static/js/2.c92dc190.chunk.js",
+    "static/js/2.c92dc190.chunk.js.map": "/park-pass/static/js/2.c92dc190.chunk.js.map",
+    "index.html": "/park-pass/index.html",
+    "precache-manifest.e9787851a72279b37881c682fdd5d403.js": "/park-pass/precache-manifest.e9787851a72279b37881c682fdd5d403.js",
+    "service-worker.js": "/park-pass/service-worker.js",
+    "static/css/main.deff4103.chunk.css.map": "/park-pass/static/css/main.deff4103.chunk.css.map",
+    "static/js/2.c92dc190.chunk.js.LICENSE": "/park-pass/static/js/2.c92dc190.chunk.js.LICENSE",
+    "static/media/car_green.svg": "/park-pass/static/media/car_green.a1deb1f6.svg",
+    "static/media/car_red.svg": "/park-pass/static/media/car_red.7b109091.svg",
+    "static/media/home.css": "/park-pass/static/media/ivana-cajina-WPVtT0MEM00-unsplash.a64433de.jpg",
+    "static/media/entrance.css": "/park-pass/static/media/john-matychuk-yvfp5YHWGsc-unsplash.5f5d2868.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87dc1c7f.js",
+    "static/js/2.c92dc190.chunk.js",
+    "static/css/main.deff4103.chunk.css",
+    "static/js/main.96d9e896.chunk.js"
+  ]
+}
