@@ -5,7 +5,6 @@ import { Checkout } from "./pages/checkout";
 import { Entrance } from "./pages/entrance";
 import { Exit } from "./pages/exit";
 import { Home } from "./pages/home";
-require("dotenv").config();
 
 const App: React.FC = () => {
   return (

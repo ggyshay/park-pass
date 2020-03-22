@@ -4,7 +4,7 @@ export const DI = {
       plate,
       parklot_id: 1
     };
-    return await fetch(process.env.REACT_APP_API_URL + "/add_parklot_car", {
+    return await fetch("http://54.224.12.242/add_parklot_car", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -18,16 +18,13 @@ export const DI = {
       plate,
       parklot_id: 1
     };
-    const res = await fetch(
-      process.env.REACT_APP_API_URL + "/exit_parklot_car",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify(data)
-      }
-    );
+    const res = await fetch("http://54.224.12.242/exit_parklot_car", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(data)
+    });
     return await res.json();
   }
 };
