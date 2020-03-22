@@ -1,26 +1,25 @@
 import React, { useState } from "react";
-import "./entrance.css";
-import { Input } from "../Components/input";
 import { Button, LinkButton } from "../Components/button";
-import { Link } from "react-router-dom";
+import { Input } from "../Components/input";
 import { DI } from "../data-interface";
+import "./entrance.css";
 
-export const Entrance = props => {
+export const Exit = () => {
   const [plate, setPlate] = useState("");
   const onClick = async () => {
-    const res = await DI.registerCar(plate);
-    if (res.status === 200) {
-      document.location.replace("/home");
-    }
+    const resJson = await DI.exitCar(plate);
+
+    window.location.replace("/checkout?price=" + resJson.price);
+    console.log(resJson);
   };
   return (
     <div className="entrance-container">
       <div className="entrance-banner">
-        <p className="entrance-banner-title">Entrada</p>
+        <p className="entrance-banner-title">Saída</p>
         <Input label="Placa" value={plate} onChange={setPlate} />
         <div>
-          <LinkButton />
-          <Button text="Terminar" onClick={onClick} />
+          <LinkButton text="Cancelar" />
+          <Button text="Cobrança" onClick={onClick} />
         </div>
       </div>
     </div>

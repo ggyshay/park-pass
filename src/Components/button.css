@@ -6,11 +6,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-decoration: none;
+}
+
+.button-container:hover {
+  background: #cf9322;
+  transition: all ease-in-out 0.15s;
 }
 
 .button-text {
   color: white;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 .link-button {
