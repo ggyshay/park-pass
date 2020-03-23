@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/park-pass/precache-manifest.32ed05ab57fe2aafa81b56de5c3822ce.js"
+  "/park-pass/precache-manifest.0e8a8892c568ba3a3a5c1716e79cb4ab.js"
 );
 
 self.addEventListener('message', (event) => {
